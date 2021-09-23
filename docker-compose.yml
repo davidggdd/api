@@ -1,0 +1,21 @@
+version: '3.3'
+services:  
+  dbpostgresqlapi:
+    image: postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=userapi
+      - POSTGRES_USER=userapi
+      - POSTGRES_DB=api
+  app:
+    container_name: api-postgresql
+    image: api
+    build: ./
+    ports:
+      - "9000:9000"
+    depends_on:
+      - dbpostgresqlapi
+    links:
+      - dbpostgresqlapi
