@@ -1,4 +1,4 @@
-package com.vitesia.api;
+package com.demo.api;
 
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Test;

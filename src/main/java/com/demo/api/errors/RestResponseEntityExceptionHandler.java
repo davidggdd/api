@@ -1,5 +1,5 @@
 
-package com.vitesia.api.errors;
+package com.demo.api.errors;
 
 import java.io.IOException;
 import java.util.stream.Collectors;

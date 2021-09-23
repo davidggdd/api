@@ -1,4 +1,4 @@
-package com.vitesia.api.model;
+package com.demo.api.model;
 
 import java.util.List;
 import javax.persistence.*;

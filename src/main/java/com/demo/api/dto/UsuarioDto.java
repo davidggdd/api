@@ -1,4 +1,4 @@
-package com.vitesia.api.dto;
+package com.demo.api.dto;
 
 public class UsuarioDto {
 

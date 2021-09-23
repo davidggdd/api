@@ -1,9 +1,9 @@
-package com.vitesia.api.service;
+package com.demo.api.service;
 
-import com.vitesia.api.dto.UserDto;
-import com.vitesia.api.dto.UserUpdatePasswordDto;
-import com.vitesia.api.model.User;
-import com.vitesia.api.repository.UsersRepository;
+import com.demo.api.dto.UserDto;
+import com.demo.api.dto.UserUpdatePasswordDto;
+import com.demo.api.model.User;
+import com.demo.api.repository.UsersRepository;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +38,7 @@ public class UserService {
 				log.info("Creando un usuario con userName " + usuarioDto.getUserName());
 			}
         
-            com.vitesia.api.model.User user = usersRepository.findByUserName(usuarioDto.getUserName());
+            com.demo.api.model.User user = usersRepository.findByUserName(usuarioDto.getUserName());
         
         
             if (!(user != null)) {

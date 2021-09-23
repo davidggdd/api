@@ -1,4 +1,4 @@
-package com.vitesia.api.config;
+package com.demo.api.config;
 
 
 import org.modelmapper.ModelMapper;

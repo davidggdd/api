@@ -1,8 +1,8 @@
-package com.vitesia.api.security;
+package com.demo.api.security;
 
 import javax.sql.DataSource;
 
-import com.vitesia.api.service.UserDetailsServiceImpl;
+import com.demo.api.service.UserDetailsServiceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;

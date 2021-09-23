@@ -1,9 +1,9 @@
-package com.vitesia.api.service;
+package com.demo.api.service;
 
 import java.util.List;
 
-import com.vitesia.api.model.Role;
-import com.vitesia.api.repository.RoleRepository;
+import com.demo.api.model.Role;
+import com.demo.api.repository.RoleRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;

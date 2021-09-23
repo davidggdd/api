@@ -1,4 +1,4 @@
-package com.vitesia.api.security;
+package com.demo.api.security;
 
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

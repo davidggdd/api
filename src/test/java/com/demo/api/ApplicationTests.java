@@ -1,4 +1,4 @@
-package com.vitesia.api;
+package com.demo.api;
 
 //@SpringBootTest
 class ApplicationTests {

@@ -1,4 +1,4 @@
-package com.vitesia.api.controller;
+package com.demo.api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.vitesia.api.dto.ClienteComboDto;
-import com.vitesia.api.dto.ClienteDto;
-import com.vitesia.api.model.Cliente;
-import com.vitesia.api.service.ClienteService;
+import com.demo.api.dto.ClienteComboDto;
+import com.demo.api.dto.ClienteDto;
+import com.demo.api.model.Cliente;
+import com.demo.api.service.ClienteService;
 
 import org.modelmapper.ModelMapper;
 

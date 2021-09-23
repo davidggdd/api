@@ -1,11 +1,10 @@
-package com.vitesia.api.service;
+package com.demo.api.service;
 
 import java.util.List;
 
-import com.vitesia.api.dto.ClienteDto;
-import com.vitesia.api.model.Cliente;
-
-import com.vitesia.api.repository.ClienteRepository;
+import com.demo.api.dto.ClienteDto;
+import com.demo.api.model.Cliente;
+import com.demo.api.repository.ClienteRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;

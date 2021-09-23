@@ -1,6 +1,6 @@
-package com.vitesia.api.repository;
+package com.demo.api.repository;
 
-import com.vitesia.api.model.Role;
+import com.demo.api.model.Role;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

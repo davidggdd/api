@@ -1,4 +1,4 @@
-package com.vitesia.api.model;
+package com.demo.api.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

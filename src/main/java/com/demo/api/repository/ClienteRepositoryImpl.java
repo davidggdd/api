@@ -1,14 +1,15 @@
-package com.vitesia.api.repository;
+package com.demo.api.repository;
 
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+
+import com.demo.api.model.Cliente;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import com.vitesia.api.model.Cliente;
 
 @Repository
 public class ClienteRepositoryImpl implements BaseRepository<Cliente, Integer> {

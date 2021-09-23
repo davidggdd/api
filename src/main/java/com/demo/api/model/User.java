@@ -1,4 +1,4 @@
-package com.vitesia.api.model;
+package com.demo.api.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

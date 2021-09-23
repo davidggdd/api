@@ -1,4 +1,4 @@
-package com.vitesia.api.controller;
+package com.demo.api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.vitesia.api.model.Role;
-
-import com.vitesia.api.service.RoleService;
+import com.demo.api.model.Role;
+import com.demo.api.service.RoleService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

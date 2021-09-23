@@ -1,9 +1,8 @@
-package com.vitesia.api.repository;
+package com.demo.api.repository;
+
+import com.demo.api.model.Cliente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-
-import com.vitesia.api.model.Cliente;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>, BaseRepository<Cliente, Integer> {
 

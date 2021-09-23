@@ -1,4 +1,4 @@
-package com.vitesia.api.repository;
+package com.demo.api.repository;
 
 public interface BaseRepository<D, T> {
 	// D -> id de la entidad

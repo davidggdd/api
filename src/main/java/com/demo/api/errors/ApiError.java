@@ -1,4 +1,4 @@
-package com.vitesia.api.errors;
+package com.demo.api.errors;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
